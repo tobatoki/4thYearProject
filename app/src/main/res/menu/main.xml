@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ttoki.whichway;" >
+
+
+    <item
+        android:id="@+id/refreshLogo"
+        android:icon="@drawable/refresh_logo"
+        android:orderInCategory="400"
+        android:title="Refresh"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/bicycleLogo"
+        android:orderInCategory="300"
+        android:title="bicycleLogo"
+        android:icon="@drawable/bicycle_logo"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
